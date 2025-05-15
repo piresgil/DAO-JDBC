@@ -2,7 +2,7 @@
  
 # Acesso a banco de dados (MySQL Workbench) com JDBC 
 
-*** apenas um simples programa para conexão ao banco de dados, tem futuras melhorias como por exemplo, não deixar apagar um elemento que não exista fazer essas verificações que não foram feitas ***
+*** apenas um simples programa para conexão ao banco de dados, tem futuras melhorias como por exemplo, não deixar apagar um elemento que não exista, essas verificações que não foram feitas, tal como tratamento de algumas exceções ***
 
 Objetivo geral: 
 Conhecer os principais recursos do JDBC
