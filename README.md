@@ -21,12 +21,12 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 
 ## Department screenshot:
 
-![MainAOO](\src\Sreenshots\TesteDepartmentDAO.png)
+![MainAOO](src/Sreenshots/TesteDepartmentDAO.png)
 
 ## Seller screenshot:
 
-![MainAOO](\src\Sreenshots\TesteSellerDAO.png)
+![MainAOO](src/Sreenshots/TesteSellerDAO.png)
 
 ## Main App screenshot:
 
-![MainAOO](\src\Sreenshots\MainApp.png)
+![MainAOO](src/Sreenshots/MainApp.png)
