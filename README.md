@@ -1,3 +1,7 @@
+![Plataforma Java MYSQL](https://img.shields.io/badge/Platform-Java%2CMYSQL%2CWorkbench-blue)  
+
+![Bibliotecas](https://img.shields.io/badge/Libraries-java.sql%2C%20javax.sql-6f42c1)
+
 @author Daniel Gil
 
 # Sistema 
