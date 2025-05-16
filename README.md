@@ -1,5 +1,6 @@
 @author Daniel Gil
-### Sistema 
+
+# Sistema 
 ## Acesso a banco de dados (MySQL Workbench) com JDBC 
 
 *** apenas um simples programa para conexão ao banco de dados, tem futuras melhorias como por exemplo, não deixar apagar um elemento que não exista, essas verificações que não foram feitas, tal como tratamento de algumas exceções ***
@@ -19,14 +20,14 @@ https://docs.oracle.com/javase/8/docs/api/java/sql/package-summary.html
 
 Pacotes: java.sql e javax.sql (API suplementar para servidores)
 
-# Department screenshot:
+### Department screenshot:
 
 ![MainAOO](src/Sreenshots/TesteDepartmentDAO.png)
 
-# Seller screenshot:
+### Seller screenshot:
 
 ![MainAOO](src/Sreenshots/TesteSellerDAO.png)
 
-# Main App screenshot:
+### Main App screenshot:
 
 ![MainAOO](src/Sreenshots/MainApp.png)
