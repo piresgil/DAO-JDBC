@@ -1,6 +1,8 @@
-![Plataforma Java MYSQL](https://img.shields.io/badge/Platform-Java%2CMYSQL%2CWorkbench-blue)  
+![Plataforma Java MYSQL](https://img.shields.io/badge/Platforms-Java%2C%20MYSQL%20Workbench-blue)  
 
 ![Bibliotecas](https://img.shields.io/badge/Libraries-java.sql%2C%20javax.sql-6f42c1)
+
+![Status](https://img.shields.io/badge/status-estável-brightgreen)
 
 @author Daniel Gil
 
