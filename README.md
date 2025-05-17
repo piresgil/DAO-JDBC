@@ -20,15 +20,15 @@ Objetivo geral:
 
 ### Screenshots:
 
-#### Department:
+#### - Department:
 
 ![MainAOO](src/Sreenshots/TesteDepartmentDAO.png)
 
-#### Seller:
+#### - Seller:
 
 ![MainAOO](src/Sreenshots/TesteSellerDAO.png)
 
-#### Main App:
+#### - Main App:
 
 ![MainAOO](src/Sreenshots/MainApp.png)
 
@@ -57,14 +57,12 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 ###  Inserir dados
 
 #### API: 
-
 - PreparedStatement 
 - executeUpdate 
 - Statement.RETURN_GENERATED_KEYS 
 - getGeneratedKeys 
 
 #### Checklist: 
-
 - Inserção simples com preparedStatement 
 - Inserção com recuperação de Id
 
@@ -73,12 +71,10 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 ###  Deletar dados
 
 #### Checklist: 
-
 - Criar DbIntegrityException 
 - Tratar a exceção de integridade referencial
 
 ###  Transações
-
 Referências: https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.4.0/product-overview/acid.html
 
 #### API: 
@@ -87,7 +83,6 @@ Referências: https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.4.0/produc
 - rollback() 
 
 ## Padrão de projeto DAO (Data Access Object)  
-
 Referências: 
 
 https://www.devmedia.com.br/dao-pattern-persistencia-de-dados-utilizando-o-padrao-dao/30999 
@@ -95,7 +90,6 @@ https://www.devmedia.com.br/dao-pattern-persistencia-de-dados-utilizando-o-padra
 https://www.oracle.com/technetwork/java/dataaccessobject-138824.html 
 
 ### Ideia geral do padrão DAO: 
-
 Para cada entidade, haverá um objeto responsável por fazer acesso a dados relacionado a esta 
 entidade.
 
