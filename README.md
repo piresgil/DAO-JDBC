@@ -105,7 +105,6 @@ https://www.oracle.com/technetwork/java/dataaccessobject-138824.html
 
 Para cada entidade, haverá um objeto responsável por fazer acesso a dados relacionado a esta 
 entidade. Por exemplo: 
-
 - Cliente: ClienteDao 
 - Produto: ProdutoDao 
 - Pedido: PedidoDao 
@@ -116,7 +115,7 @@ entidade. Por exemplo:
 
 ![MainAOO](src/Sreenshots/DAO.png)
 
-##Department entity class 
+## Department entity class 
 
 - Entity class checklist: 
 
@@ -132,20 +131,20 @@ entidade. Por exemplo:
 
 - implements Serializable
 
-## Seller entity class 
+### Seller entity class 
  
-## DepartmentDao and SellerDao interfaces 
+### DepartmentDao and SellerDao interfaces 
 
-## SellerDaoJDBC and DaoFactory
+### SellerDaoJDBC and DaoFactory
 
-## findById implementation 
+### findById implementation 
 
-## findByDepartment implementation
+### findByDepartment implementation
 
-## findAll implementation
+### findAll implementation
 
-## insert implementation
+### insert implementation
 
-## update implementation 
+### update implementation 
 
-## delete implementation
+### delete implementation
