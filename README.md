@@ -18,9 +18,10 @@ Pequeno sistema que faz a conexão ao banco de dados com o JDBC com padrão DAO 
 - Implementar o padrão DAO manualmente com JDBC 
 
 ### Screenshots:
-#### Department
+
+#### Main App
 <p align="center">
-  <img src="src/Sreenshots/TesteDepartmentDAO.png" alt="MainAOO" />
+  <img src="src/Sreenshots/MainApp.png" alt="MainAOO" />
 </p>
 
 #### Seller
@@ -28,10 +29,12 @@ Pequeno sistema que faz a conexão ao banco de dados com o JDBC com padrão DAO 
   <img src="src/Sreenshots/TesteSellerDAO.png" alt="MainAOO" />
 </p>
 
-#### Main App
+#### Department
 <p align="center">
-  <img src="src/Sreenshots/MainApp.png" alt="MainAOO" />
+  <img src="src/Sreenshots/TesteDepartmentDAO.png" alt="MainAOO" />
 </p>
+
+
 
 ## Visão geral do JDBC 
 JDBC (Java Database Connectivity): API padrão do Java para acesso a dados 
