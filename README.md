@@ -98,9 +98,9 @@ entidade.
 
 Por exemplo: 
 	
-	- Cliente: ClienteDao
-	- Produto: ProdutoDao
-	- Pedido: PedidoDao
+	Cliente: ClienteDao
+	Produto: ProdutoDao
+	Pedido: PedidoDao
 
 - Cada DAO será definido por uma interface. 
 
@@ -108,7 +108,7 @@ Por exemplo:
 
 ![MainAOO](src/Sreenshots/DAO.png)
 
-## Department entity class 
+### Department entity class 
 
 #### checklist: 
 - Attributes 
