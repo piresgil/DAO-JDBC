@@ -43,7 +43,7 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 
 ### API: 
 
-- Statement 
+- Statement
 - ResultSet 
 
 	- first() [move para posição 1, se houver] 
@@ -96,7 +96,7 @@ https://www.oracle.com/technetwork/java/dataaccessobject-138824.html
 Para cada entidade, haverá um objeto responsável por fazer acesso a dados relacionado a esta 
 entidade.
 
-Por exemplo: 
+Por exemplo 
 	
 	Cliente: ClienteDao
 	Produto: ProdutoDao
