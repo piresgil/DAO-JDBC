@@ -19,13 +19,19 @@ Pequeno sistema que faz a conexão ao banco de dados com o JDBC com padrão DAO 
 
 ### Screenshots:
 #### Department
-![MainAOO](src/Sreenshots/TesteDepartmentDAO.png)
+<p align="center">
+  <img src="src/Sreenshots/TesteDepartmentDAO.png" alt="MainAOO" />
+</p>
 
 #### Seller
-![MainAOO](src/Sreenshots/TesteSellerDAO.png)
+<p align="center">
+  <img src="src/Sreenshots/TesteSellerDAO.png" alt="MainAOO" />
+</p>
 
 #### Main App
-![MainAOO](src/Sreenshots/MainApp.png)
+<p align="center">
+  <img src="src/Sreenshots/MainApp.png" alt="MainAOO" />
+</p>
 
 ## Visão geral do JDBC 
 JDBC (Java Database Connectivity): API padrão do Java para acesso a dados 
@@ -36,8 +42,9 @@ https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/
 https://docs.oracle.com/javase/8/docs/api/java/sql/package-summary.html 
 
 Pacotes: java.sql e javax.sql (API suplementar para servidores)
-
-![MainAOO](src/Sreenshots/JDBC.png)
+<p align="center">
+  <img src="src/Sreenshots/JDBC.png" alt="MainAOO" />
+</p>
 
 #### API: 
 - Statement
@@ -85,8 +92,9 @@ entidade.
 - A injeção de dependência pode ser feita por meio do padrão de projeto Factory
 
 Por exemplo: 
-
-![MainAOO](src/Sreenshots/DAO.png)
+<p align="center">
+  <img src="src/Sreenshots/DAO.png" alt="MainAOO" />
+</p>
 
 ### Department entity class 
 #### checklist: 
