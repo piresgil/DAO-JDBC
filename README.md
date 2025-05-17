@@ -4,12 +4,11 @@
 
 ![Status](https://img.shields.io/badge/status-estável-brightgreen)
 
-@author Daniel Gil
+@author Daniel Gil 
 
-# Sistema 
-## Acesso a banco de dados (MySQL Workbench) com JDBC 
+# Acesso a banco de dados (MySQL Workbench) com JDBC 
 
-*** apenas um simples programa para conexão ao banco de dados, tem futuras melhorias como por exemplo, não deixar apagar um elemento que não exista, essas verificações que não foram feitas, tal como tratamento de algumas exceções ***
+*** apenas um simples programa para conexão ao banco de dados, tem futuras melhorias como por exemplo, tratamento de algumas exceções, não deixar apagar um elemento que não exista, essas verificações que não foram feitas ***
 
 Objetivo geral: 
 Conhecer os principais recursos do JDBC
