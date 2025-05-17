@@ -94,7 +94,8 @@ https://www.oracle.com/technetwork/java/dataaccessobject-138824.html
 ### Ideia geral do padrão DAO: 
 
 Para cada entidade, haverá um objeto responsável por fazer acesso a dados relacionado a esta 
-entidade. Por exemplo: 
+entidade.
+Por exemplo: 
 	- Cliente: ClienteDao 
 	- Produto: ProdutoDao 
 	- Pedido: PedidoDao 
