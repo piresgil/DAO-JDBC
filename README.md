@@ -18,19 +18,21 @@ Objetivo geral:
 - Elaborar a estrutura básica de um projeto com JDBC 
 - Implementar o padrão DAO manualmente com JDBC 
 
-### Department screenshot:
+### Screenshots:
+
+#### Department:
 
 ![MainAOO](src/Sreenshots/TesteDepartmentDAO.png)
 
-### Seller screenshot:
+#### Seller:
 
 ![MainAOO](src/Sreenshots/TesteSellerDAO.png)
 
-### Main App screenshot:
+#### Main App:
 
 ![MainAOO](src/Sreenshots/MainApp.png)
 
-Visão geral do JDBC 
+## Visão geral do JDBC 
 JDBC (Java Database Connectivity): API padrão do Java para acesso a dados 
 
 Páginas oficiais:  
@@ -42,7 +44,7 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 
 ![MainAOO](src/Sreenshots/JDBC.png)
 
-### API: 
+#### API: 
 
 - Statement
 - ResultSet 
@@ -52,9 +54,9 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 	- next()  [move para o próximo, retorna false se já estiver no último] 
 	- absolute(int) [move para a posição dada, lembrando que dados reais começam em 1]
 
-##  Inserir dados
+###  Inserir dados
 
-### API: 
+#### API: 
 
 - PreparedStatement 
 - executeUpdate 
@@ -66,20 +68,20 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 - Inserção simples com preparedStatement 
 - Inserção com recuperação de Id
 
-##  Atualizar dados
+###  Atualizar dados
 
-##  Deletar dados
+###  Deletar dados
 
 #### Checklist: 
 
 - Criar DbIntegrityException 
 - Tratar a exceção de integridade referencial
 
-##  Transações
+###  Transações
 
 Referências: https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.4.0/product-overview/acid.html
 
-### API: 
+#### API: 
 - setAutoCommit(false) 
 - commit() 
 - rollback() 
