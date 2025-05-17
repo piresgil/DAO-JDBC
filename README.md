@@ -44,15 +44,11 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 ### API: 
 
 - Statement 
-
 - ResultSet 
 
 	- first() [move para posição 1, se houver] 
-
 	- beforeFirst() [move para posição 0] 
-
 	- next()  [move para o próximo, retorna false se já estiver no último] 
-
 	- absolute(int) [move para a posição dada, lembrando que dados reais começam em 1]
 
 ##  Inserir dados
@@ -60,17 +56,13 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 ### API: 
 
 - PreparedStatement 
-
 - executeUpdate 
-
 - Statement.RETURN_GENERATED_KEYS 
-
 - getGeneratedKeys 
 
 #### Checklist: 
 
 - Inserção simples com preparedStatement 
-
 - Inserção com recuperação de Id
 
 ##  Atualizar dados
@@ -88,9 +80,7 @@ Referências: https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.4.0/produc
 
 ### API: 
 - setAutoCommit(false) 
-
 - commit() 
-
 - rollback() 
 
 ## Padrão de projeto DAO (Data Access Object)  
@@ -105,9 +95,9 @@ https://www.oracle.com/technetwork/java/dataaccessobject-138824.html
 
 Para cada entidade, haverá um objeto responsável por fazer acesso a dados relacionado a esta 
 entidade. Por exemplo: 
-- Cliente: ClienteDao 
-- Produto: ProdutoDao 
-- Pedido: PedidoDao 
+	- Cliente: ClienteDao 
+	- Produto: ProdutoDao 
+	- Pedido: PedidoDao 
 
 - Cada DAO será definido por uma interface. 
 
