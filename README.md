@@ -18,13 +18,13 @@ Pequeno sistema que faz a conexão ao banco de dados com o JDBC com padrão DAO 
 - Implementar o padrão DAO manualmente com JDBC 
 
 ### Screenshots:
-#### - Department:
+#### Department
 ![MainAOO](src/Sreenshots/TesteDepartmentDAO.png)
 
-#### - Seller:
+#### Seller
 ![MainAOO](src/Sreenshots/TesteSellerDAO.png)
 
-#### - Main App:
+#### Main App
 ![MainAOO](src/Sreenshots/MainApp.png)
 
 ## Visão geral do JDBC 
@@ -47,7 +47,7 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 	- next()  [move para o próximo, retorna false se já estiver no último] 
 	- absolute(int) [move para a posição dada, lembrando que dados reais começam em 1]
 
-###  Inserir dados
+##  Inserir dados
 #### API: 
 - PreparedStatement 
 - executeUpdate 
@@ -57,13 +57,12 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 #### Checklist: 
 - Inserção simples com preparedStatement 
 - Inserção com recuperação de Id
-###  Atualizar dados
-###  Deletar dados
+##  Atualizar dados
+##  Deletar dados
 #### Checklist: 
 - Criar DbIntegrityException 
 - Tratar a exceção de integridade referencial
-
-###  Transações
+##  Transações
 Referências: https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.4.0/product-overview/acid.html
 #### API: 
 - setAutoCommit(false) 
