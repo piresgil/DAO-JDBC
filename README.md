@@ -12,24 +12,19 @@
 
 Pequeno sistema que faz a conexão ao banco de dados com o JDBC com padrão DAO (Data Access Object) e servidor MySQL Workbench.
 
-Objetivo geral: 
-
+## Objetivo geral: 
 - Conhecer os principais recursos do JDBC
 - Elaborar a estrutura básica de um projeto com JDBC 
 - Implementar o padrão DAO manualmente com JDBC 
 
 ### Screenshots:
-
 #### - Department:
-
 ![MainAOO](src/Sreenshots/TesteDepartmentDAO.png)
 
 #### - Seller:
-
 ![MainAOO](src/Sreenshots/TesteSellerDAO.png)
 
 #### - Main App:
-
 ![MainAOO](src/Sreenshots/MainApp.png)
 
 ## Visão geral do JDBC 
@@ -45,17 +40,14 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 ![MainAOO](src/Sreenshots/JDBC.png)
 
 #### API: 
-
 - Statement
 - ResultSet 
-
 	- first() [move para posição 1, se houver] 
 	- beforeFirst() [move para posição 0] 
 	- next()  [move para o próximo, retorna false se já estiver no último] 
 	- absolute(int) [move para a posição dada, lembrando que dados reais começam em 1]
 
 ###  Inserir dados
-
 #### API: 
 - PreparedStatement 
 - executeUpdate 
@@ -65,18 +57,14 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 #### Checklist: 
 - Inserção simples com preparedStatement 
 - Inserção com recuperação de Id
-
 ###  Atualizar dados
-
 ###  Deletar dados
-
 #### Checklist: 
 - Criar DbIntegrityException 
 - Tratar a exceção de integridade referencial
 
 ###  Transações
 Referências: https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.4.0/product-overview/acid.html
-
 #### API: 
 - setAutoCommit(false) 
 - commit() 
@@ -102,7 +90,6 @@ Por exemplo:
 ![MainAOO](src/Sreenshots/DAO.png)
 
 ### Department entity class 
-
 #### checklist: 
 - Attributes 
 - Constructors 
@@ -112,19 +99,11 @@ Por exemplo:
 - implements Serializable
 
 ### Seller entity class 
- 
 ### DepartmentDao and SellerDao interfaces 
-
 ### SellerDaoJDBC and DaoFactory
-
 ### findById implementation 
-
 ### findByDepartment implementation
-
 ### findAll implementation
-
 ### insert implementation
-
 ### update implementation 
-
 ### delete implementation
