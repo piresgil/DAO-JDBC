@@ -10,7 +10,7 @@
 
 *** Projeto apenas didático ***
 
-Pequeno sistema que faz a conexão ao banco de dados com o JDBC e o padrão DAO (Data Access Object) e servidor MySQL Workbench.
+Pequeno sistema que faz a conexão ao banco de dados com o JDBC com padrão DAO (Data Access Object) e servidor MySQL Workbench.
 
 Objetivo geral: 
 Conhecer os principais recursos do JDBC
@@ -67,17 +67,17 @@ Pacotes: java.sql e javax.sql (API suplementar para servidores)
 
 - getGeneratedKeys 
 
-### Checklist: 
+#### Checklist: 
 
-Inserção simples com preparedStatement 
+- Inserção simples com preparedStatement 
 
-Inserção com recuperação de Id
+- Inserção com recuperação de Id
 
 ##  Atualizar dados
 
 ##  Deletar dados
 
-### Checklist: 
+#### Checklist: 
 
 - Criar DbIntegrityException 
 - Tratar a exceção de integridade referencial
@@ -86,7 +86,7 @@ Inserção com recuperação de Id
 
 Referências: https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.4.0/product-overview/acid.html
 
-## API: 
+### API: 
 - setAutoCommit(false) 
 
 - commit() 
@@ -106,12 +106,46 @@ https://www.oracle.com/technetwork/java/dataaccessobject-138824.html
 Para cada entidade, haverá um objeto responsável por fazer acesso a dados relacionado a esta 
 entidade. Por exemplo: 
 
-	- Cliente: ClienteDao 
-	- Produto: ProdutoDao 
-	- Pedido: PedidoDao 
+- Cliente: ClienteDao 
+- Produto: ProdutoDao 
+- Pedido: PedidoDao 
 
 - Cada DAO será definido por uma interface. 
 
 - A injeção de dependência pode ser feita por meio do padrão de projeto Factory
 
 ![MainAOO](src/Sreenshots/DAO.png)
+
+##Department entity class 
+
+- Entity class checklist: 
+
+- Attributes 
+
+- Constructors 
+
+- Getters/Setters 
+
+- hashCode and equals 
+
+- toString 
+
+- implements Serializable
+
+## Seller entity class 
+ 
+## DepartmentDao and SellerDao interfaces 
+
+## SellerDaoJDBC and DaoFactory
+
+## findById implementation 
+
+## findByDepartment implementation
+
+## findAll implementation
+
+## insert implementation
+
+## update implementation 
+
+## delete implementation
