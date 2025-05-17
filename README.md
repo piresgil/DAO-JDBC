@@ -13,9 +13,10 @@
 Pequeno sistema que faz a conexão ao banco de dados com o JDBC com padrão DAO (Data Access Object) e servidor MySQL Workbench.
 
 Objetivo geral: 
-Conhecer os principais recursos do JDBC
-Elaborar a estrutura básica de um projeto com JDBC 
-Implementar o padrão DAO manualmente com JDBC 
+
+- Conhecer os principais recursos do JDBC
+- Elaborar a estrutura básica de um projeto com JDBC 
+- Implementar o padrão DAO manualmente com JDBC 
 
 ### Department screenshot:
 
