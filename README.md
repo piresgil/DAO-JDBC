@@ -96,9 +96,10 @@ https://www.oracle.com/technetwork/java/dataaccessobject-138824.html
 Para cada entidade, haverá um objeto responsável por fazer acesso a dados relacionado a esta 
 entidade.
 Por exemplo: 
-	- Cliente: ClienteDao 
-	- Produto: ProdutoDao 
-	- Pedido: PedidoDao 
+	
+	- Cliente: ClienteDao
+	- Produto: ProdutoDao
+	- Pedido: PedidoDao
 
 - Cada DAO será definido por uma interface. 
 
