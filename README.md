@@ -95,6 +95,7 @@ https://www.oracle.com/technetwork/java/dataaccessobject-138824.html
 
 Para cada entidade, haverá um objeto responsável por fazer acesso a dados relacionado a esta 
 entidade.
+
 Por exemplo: 
 	
 	- Cliente: ClienteDao
@@ -109,18 +110,12 @@ Por exemplo:
 
 ## Department entity class 
 
-- Entity class checklist: 
-
+#### checklist: 
 - Attributes 
-
 - Constructors 
-
 - Getters/Setters 
-
 - hashCode and equals 
-
 - toString 
-
 - implements Serializable
 
 ### Seller entity class 
