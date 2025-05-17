@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * Method Main
- * não esquecer de ativar o service do workbench no windows para iniciar o servidor do SQL
+ * não esquecer de ativar o service do workbench no windows para iniciar o servidor do SQL (MySQL84)
  */
 
 public class main {

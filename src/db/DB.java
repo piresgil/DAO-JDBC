@@ -16,7 +16,7 @@ import java.util.Properties;
 
 /**
  * Class Base de Dados
- * não esquecer de ativar o service do workbench no windows para iniciar o servidor do SQL
+ * não esquecer de ativar o service do workbench no windows para iniciar o servidor do SQL (MySQL84)
  */
 public class DB {
 
