@@ -1,7 +1,7 @@
 /**
  * @author Daniel Gil
  */
-package db.exceptions;
+package main.java.application.db.exceptions;
 /**
  * Exceção personalizada
  * Exceção de integridade, nao deixa apagar tabelas que estejam relacionadas

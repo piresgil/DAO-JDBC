@@ -1,15 +1,15 @@
 /**
  * @author Daniel Gil
  */
-package application.testes;
+package main.java.application.testes;
 
 import java.util.List;
 import java.util.Scanner;
 
-import db.DB;
-import model.dao.DaoFactory;
-import model.dao.DepartmentDao;
-import model.entities.Department;
+import main.java.application.db.DB;
+import main.java.application.model.dao.DaoFactory;
+import main.java.application.model.dao.DepartmentDao;
+import main.java.application.model.entities.Department;
 
 public class TesteDepartmentDAO {
 

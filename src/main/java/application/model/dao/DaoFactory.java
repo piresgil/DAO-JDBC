@@ -1,11 +1,11 @@
 /**
  * @author Daniel Gil
  */
-package model.dao;
+package main.java.application.model.dao;
 
-import db.DB;
-import model.dao.impl.DepartmentDaoJDBC;
-import model.dao.impl.SellerDaoJDBC;
+import main.java.application.db.DB;
+import main.java.application.model.dao.impl.DepartmentDaoJDBC;
+import main.java.application.model.dao.impl.SellerDaoJDBC;
 
 /**
  * Class DAO Factory

@@ -1,7 +1,7 @@
 /**
  * @author Daniel Gil
  */
-package model.dao.impl;
+package main.java.application.model.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,11 +11,11 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import db.DB;
-import db.exceptions.DbException;
-import db.exceptions.DbIntegrityException;
-import model.dao.DepartmentDao;
-import model.entities.Department;
+import main.java.application.db.DB;
+import main.java.application.db.exceptions.DbException;
+import main.java.application.db.exceptions.DbIntegrityException;
+import main.java.application.model.dao.DepartmentDao;
+import main.java.application.model.entities.Department;
 
 /**
  * Class Department DAO DBC

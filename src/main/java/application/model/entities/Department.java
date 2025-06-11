@@ -1,7 +1,7 @@
 /**
  * @author Daniel Gil
  */
-package model.entities;
+package main.java.application.model.entities;
 
 import java.io.Serializable;
 

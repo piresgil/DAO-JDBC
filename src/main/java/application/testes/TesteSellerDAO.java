@@ -1,17 +1,17 @@
 /**
  * @author Daniel Gil
  */
-package application.testes;
+package main.java.application.testes;
 
 import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
-import db.DB;
-import model.dao.DaoFactory;
-import model.dao.SellerDao;
-import model.entities.Department;
-import model.entities.Seller;
+import main.java.application.db.DB;
+import main.java.application.model.dao.DaoFactory;
+import main.java.application.model.dao.SellerDao;
+import main.java.application.model.entities.Department;
+import main.java.application.model.entities.Seller;
 
 public class TesteSellerDAO {
 

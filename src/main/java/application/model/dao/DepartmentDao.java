@@ -1,11 +1,11 @@
 /**
  * @author Daniel Gil
  */
-package model.dao;
+package main.java.application.model.dao;
 
 import java.util.List;
 
-import model.entities.Department;
+import main.java.application.model.entities.Department;
 
 /**
  * Interface Department DAO

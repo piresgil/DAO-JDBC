@@ -2,14 +2,14 @@
  * @author Daniel Gil
  */
 
-package application;
+package main.java.application;
 
-import db.DB;
-import model.dao.DaoFactory;
-import model.dao.DepartmentDao;
-import model.dao.SellerDao;
-import model.entities.Department;
-import model.entities.Seller;
+import main.java.application.db.DB;
+import main.java.application.model.dao.DaoFactory;
+import main.java.application.model.dao.DepartmentDao;
+import main.java.application.model.dao.SellerDao;
+import main.java.application.model.entities.Department;
+import main.java.application.model.entities.Seller;
 
 import java.util.List;
 

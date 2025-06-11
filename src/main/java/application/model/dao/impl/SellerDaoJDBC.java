@@ -1,7 +1,7 @@
 /**
  * @author Daniel Gil
  */
-package model.dao.impl;
+package main.java.application.model.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -14,11 +14,11 @@ import java.util.Map;
 
 import java.sql.Statement;
 
-import db.DB;
-import db.exceptions.DbException;
-import model.dao.SellerDao;
-import model.entities.Department;
-import model.entities.Seller;
+import main.java.application.db.DB;
+import main.java.application.db.exceptions.DbException;
+import main.java.application.model.dao.SellerDao;
+import main.java.application.model.entities.Department;
+import main.java.application.model.entities.Seller;
 
 /**
  * Class Seller DAO DBC

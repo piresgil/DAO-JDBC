@@ -1,9 +1,9 @@
 /**
  * @author Daniel Gil
  */
-package db;
+package main.java.application.db;
 
-import db.exceptions.DbException;
+import main.java.application.db.exceptions.DbException;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -59,12 +59,12 @@ public class DB {
 
     /**
      * Method Load Properties,
-     * faz a leitura do ficheiro "db.properties"
+     * faz a leitura do ficheiro "main.application.db.properties"
      *
-     * @return Properties, com os dados do db.properties
+     * @return Properties, com os dados do main.application.db.properties
      */
     private static Properties loadProperties() {
-        try (FileInputStream fs = new FileInputStream("db.properties")) {
+        try (FileInputStream fs = new FileInputStream("resources/db.properties")) {
             Properties props = new Properties();
             props.load(fs);
             return props;
